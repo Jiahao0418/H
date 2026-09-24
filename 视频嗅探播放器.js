@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         视频嗅探播放器
+// @name         移动端视频嗅探器
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  手机端网页视频嗅探，全屏横屏播放，左右滑动快进快退，左侧亮度/右侧音量，支持倍速与字幕加载
 // @author       You
 // @match        *://*/*
+// @include      *
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @grant        GM_openInTab
@@ -14,7 +15,6 @@
 // @license      MIT
 // @run-at       document-end
 // ==/UserScript==
-
 (function () {
     'use strict';
 
